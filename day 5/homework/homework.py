@@ -14,6 +14,8 @@ country = "georgia"
 
 print(name, last_name, hobby, age, country)
 
+# კოდმა იმუშავა, რაც იმას ნიშნავს რომ გამოგვივიდა.
+
 
 
 

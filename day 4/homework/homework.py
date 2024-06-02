@@ -198,9 +198,13 @@ forward(100)
 # now lets draw the flag
 color("red")
 
+# move pen to the coordinates
+
 penup()
 goto(100,200)
 pendown()
+
+# now lets start drawing
 
 begin_fill()
 left(90)
@@ -210,6 +214,9 @@ forward(50)
 right(90)
 forward(100)
 end_fill()
+
+
+# castle is built.
 
 
 
