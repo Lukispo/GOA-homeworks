@@ -3,7 +3,7 @@ Second_person = int(input("enter age of second person: "))
 
 
 
-  if First_person < Second_person:
+if First_person < Second_person:
     print("first person is smaller then second person")
 
     if First_person == Second_person:
