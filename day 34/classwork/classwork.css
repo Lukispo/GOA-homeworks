@@ -1,0 +1,62 @@
+
+.HelloP {
+    color: white;
+    background-color: orange;
+    font-size: 10px;
+}
+
+
+.WhatsP {
+    color:aliceblue;
+    background-color:black;
+    font-size: 3em;
+}
+
+.sP {
+    font-size: 24px;
+    color: tomato;
+    background-color: lavender;
+}
+
+.UpP {
+    font-size: 16px;
+    color: steelblue;
+    background-color: lightgoldenrodyellow;
+}
+
+.SigmasP {
+    font-size: 20px;
+    color: limegreen;
+    background-color: lavenderblush;
+}
+
+#NothingH {
+    font-size: 18px;
+    color: blueviolet;
+    background-color: mintcream;
+}
+
+#WhatH {
+    font-size: 22px;
+    color: crimson;
+    background-color: lightcyan;
+}
+
+#AboutH {
+    font-size: 26px;
+    color: darkorange;
+    background-color: honeydew;
+}
+
+#YouH {
+    font-size: 14px;
+    color: darkslateblue;
+    background-color: aliceblue;
+}
+
+#ChadH {
+    font-size: 28px;
+    color: deeppink;
+    background-color: peachpuff;
+}
+
