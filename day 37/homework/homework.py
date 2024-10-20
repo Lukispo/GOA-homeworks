@@ -1,0 +1,1 @@
+list = {"apple", "apple", "cherry", "date", "elderberry"}
