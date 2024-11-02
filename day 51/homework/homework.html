@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(255, 150, 150, 0.9);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        section {
+            padding: 100px 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+
+        .relative {
+            position: relative;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            background-color: #ffe0e0;
+            padding: 15px;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+            background-color: #e0f7fa;
+            padding: 10px;
+            z-index: 999;
+        }
+
+        footer {
+            background-color: rgba(100, 100, 255, 0.9);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sample Header</h1>
+    <nav>
+        <a href="#section1">apple</a>
+        <a href="#section2">banana</a>
+        <a href="#section3">cherry</a>
+        <a href="#section4">orange</a>
+    </nav>
+</header>
+
+<section id="section1">
+    <h2>First Section</h2>
+    <p>This section is about the fruit: <strong>grape</strong>.</p>
+</section>
+
+<section id="section2">
+    <h2>Second Section</h2>
+    <div class="relative">
+        <p>Here’s more about the fruit: <strong>mango</strong>.</p>
+        <div class="absolute">This is positioned above the fruit: <strong>peach</strong>!</div>
+    </div>
+</section>
+
+<section id="section3">
+    <h2>Third Section</h2>
+    <p>More information on the fruit: <strong>kiwi</strong>.</p>
+</section>
+
+<section id="section4">
+    <h2>Fourth Section</h2>
+    <h3 class="sticky">I stick around!</h3>
+    <p>Keep scrolling to learn about the fruit: <strong>watermelon</strong>.</p>
+</section>
+
+<footer>
+    <p>Footer content goes here: <strong>pineapple</strong>.</p>
+</footer>
+
+</body>
+</html>
