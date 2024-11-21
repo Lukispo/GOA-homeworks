@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .hero .content {
+    flex: 1;
+  }
+  
+  .hero .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .content p {
+    margin-bottom: 20px;
+  }
+  
+  .hero .content form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .hero .content form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hero .content form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero .image img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .content-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .content-section p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature-item {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .feature-item img {
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 20px 10px;
+  }
+  
+  footer .cta {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  footer .cta form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  footer .cta form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  footer .cta form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer .footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+  }
+  

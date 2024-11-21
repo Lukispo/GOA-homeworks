@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="homework2.css">
+</head>
+<body>
+    <div class="contact-container">
+        <div class="contact-form">
+            <h2>Say Hello!</h2>
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email address" required>
+                
+                <label for="services">Needed Services</label>
+                <select id="services">
+                    <option value="" disabled selected>Choose Services</option>
+                    <option value="web-design">Web Design</option>
+                    <option value="seo">SEO</option>
+                    <option value="content-writing">Content Writing</option>
+                </select>
+                
+                <label for="budget">Budget</label>
+                <select id="budget">
+                    <option value="" disabled selected>Select Budget</option>
+                    <option value="low">$100 - $500</option>
+                    <option value="medium">$500 - $1000</option>
+                    <option value="high">$1000+</option>
+                </select>
+                
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your message here..." rows="4" required></textarea>
+                
+                <button type="submit" class="btn-submit">Submit →</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
